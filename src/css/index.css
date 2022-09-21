@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: green;
+    font-style: italic;
+}
+
+.note{
+    margin-bottom: 10px;
+    color: grey;
+    padding-top: 3px;
+    font-size: 15px;
+}
+
+.note > button{
+    margin-left: 20px;
+    background-color: rgb(174, 202, 255);
+    border-radius: 4px;
+}
+
+.note > button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.error{
+    min-width:50vw;
+    max-width: 90vw;
+    margin: 15px;
+    border: 3px solid red;
+    background-color: rgb(255, 193, 193);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
